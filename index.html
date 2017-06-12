@@ -8,8 +8,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="cannonball.css">
   <link rel="stylesheet" href="ddr.css">
+  <link rel="stylesheet" href="slider.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Document</title>
+  <script
+    src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous"></script>
+  <title>Volume Sliders</title>
+  <link rel="shortcut icon" type="image/png" href="https://icons.iconarchive.com/icons/custom-icon-design/mono-general-4/256/sound-icon.png"/>
   <style>
     .header {
       padding: 20px 0;
@@ -21,6 +27,17 @@
     }
     .header a {
       color: white;
+    }
+    .options {
+      max-width: 966px;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .item {
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid black;
     }
   </style>
 </head>
@@ -39,8 +56,23 @@
         <i class="fa fa-volume-up button-ddr" aria-hidden="true"></i>
       </div>
     </div>
+
+    <div class="item">
+      <div class="volume-slider">
+        <h1 class='volume-slider-counter'> Volume:
+          <span></span>
+        </h1>
+        <div class="volume-slider-box">
+          <div class="volume-slider-slide">
+            <div class="volume-slider-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
   <script src="cannonball.js"></script>
   <script src="ddr.js"></script>
+  <script src="slider.js"></script>
 </body>
 </html>
