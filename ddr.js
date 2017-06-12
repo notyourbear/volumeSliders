@@ -1,8 +1,8 @@
 let volume = 0
 const odds = {
-  minus: 1,
-  plus: 3,
-  exit: 5,
+  minus: 3,
+  plus: 6,
+  exit: 9,
   rest: 10
 }
 const game = {
@@ -133,7 +133,7 @@ const init = () => {
 
   interval = setInterval(() => {
     tick()
-  }, 500)
+  }, 450)
 }
 
 
