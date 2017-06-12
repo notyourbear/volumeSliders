@@ -1,0 +1,66 @@
+.volume-ddr {
+  width: 450px;
+  position: relative;
+  margin: 42px 0;
+}
+
+.gameboard-ddr {
+  display: flex;
+  width: 400px;
+  height: 99px;
+}
+
+.ddr-column {
+  width: 40px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 99px;
+}
+
+.ddr-field {
+  width: 38px;
+  height: 31px;
+  font-size: 1.15em;
+  font-weight: 700;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 30px;
+}
+
+.volume-ddr h1{
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.ddr-overlay {
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
+.ddr-overlay .up, .ddr-overlay .down {
+  text-align: center;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.ddr-overlay .ddr-field {
+  border: 0px solid black;
+  background: transparent;
+}
+
+.field- {
+  background: #8f9c93;
+  color: white;
+}
+
+.fieldplus {
+  background: #e39f8d;
+  color: white;
+}
+
+.fieldx {
+  background: #81828a;
+  color: white;
+}

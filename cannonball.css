@@ -1,0 +1,43 @@
+.options {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 10px;
+}
+
+.volume-cannon {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.volume-line {
+  width: 180px;
+  height: 5px;
+  background: silver;
+  border-radius: 25px;
+  margin: 0px 10px;
+}
+
+.fa-volume-up {
+  cursor: pointer;
+  position: relative;
+}
+
+.volume-ball {
+  position: absolute;
+  left: 14px;
+  bottom: 4px;
+  height: 8px;
+  width: 8px;
+  background: red;
+  border-radius: 20px;
+  opacity: 0;
+}
