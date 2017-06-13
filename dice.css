@@ -1,0 +1,81 @@
+.volume-dice {
+  width: 280px;
+}
+
+.volume-dice button {
+  background: white;
+  padding: 5px 20px;
+  display: block;
+  margin: 5px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.volume-dice-field {
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  height: 120px;
+  justify-content: space-between;
+}
+
+.volume-die {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+  background: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.volume-die:hover {
+  box-shadow: 0 0 1px 2px #d3d3d3;
+}
+
+.volume-die.locked {
+  border-color: red;
+}
+
+.spot {
+  width: 6px;
+  height: 6px;
+  background: black;
+  margin: 2px 3px;
+  border-radius: 3px;
+  align-self: center;
+}
+
+.die-count-1 {
+  margin: 0 auto;
+}
+
+.die-count-2 {
+  margin: 5px auto;
+}
+
+.die-count-2.spot-0 {
+  align-self: flex-start;
+}
+
+.die-count-2.spot-1 {
+  align-self: flex-end;
+}
+
+.die-count-3 {
+  margin: 5px auto;
+}
+
+.die-count-3.spot-0 {
+  align-self: flex-end;
+}
+
+.die-count-3.spot-2 {
+  align-self: flex-start;
+}
+
+.die-count-5.spot-2 {
+  margin: 0 12px;
+}

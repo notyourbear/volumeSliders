@@ -9,14 +9,20 @@
   <link rel="stylesheet" href="cannonball.css">
   <link rel="stylesheet" href="ddr.css">
   <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="dice.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script
     src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
     integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
     crossorigin="anonymous"></script>
+  <script src = 'helper.js'></script>
   <title>Volume Sliders</title>
   <link rel="shortcut icon" type="image/png" href="https://icons.iconarchive.com/icons/custom-icon-design/mono-general-4/256/sound-icon.png"/>
   <style>
+    h1 {
+      text-align: center;
+      font-size: 1.25em;
+    }
     .header {
       padding: 20px 0;
       background: #a2b8a8;
@@ -69,10 +75,23 @@
         </div>
       </div>
     </div>
+
+    <div class="item">
+      <div class="volume-dice">
+        <div class="volume-dice-field"></div>
+        <button>Roll</button>
+        <div class="volume-dice-counter">
+          <h1 class='volume-dice-count'>Volume: <span>0</span></h1>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 
   <script src="cannonball.js"></script>
   <script src="ddr.js"></script>
   <script src="slider.js"></script>
+  <script src="dice.js"></script>
 </body>
 </html>

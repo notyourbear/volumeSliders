@@ -14,9 +14,6 @@ let interval = null;
 const $ddr = $('.volume-ddr')
 const $vol = $('.button-ddr')
 
-const randomInt = (min, max) =>
-  Math.floor(Math.random() * (max - min + 1)) + min
-
 const nextCol = () => {
   const num = randomInt(0, 9)
   const place = randomInt(0, 2)
