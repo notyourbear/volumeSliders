@@ -74,6 +74,7 @@ $volumeDiceField.on('click', (e) => {
   const className = e.target.className
   if (className.includes('volume-die')) {
     toggleLock(e.target)
-    getDieValue(0)
+  } else if (className.includes('spot')) {
+    toggleLock($(e.target).parent())
   }
 })
