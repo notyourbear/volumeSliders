@@ -101,7 +101,7 @@ const evaluate = () => {
     }
     case 'x': {
       clearInterval(interval)
-      $ddr.html('<i class="fa fa-volume-up button-ddr" aria-hidden="true"></i>')
+      $ddr.html(`<i class="fa fa-volume-up button-ddr" aria-hidden="true"></i><h1>Volume: ${volume}</h1>`)
       $('.button-ddr').on('click', init)
       break;
     }
