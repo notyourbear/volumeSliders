@@ -1,0 +1,45 @@
+.volume-radios {
+  max-width: 400px;
+}
+
+.volume-up-radios {
+  margin: 0 auto;
+  display: block !important;
+  cursor: pointer !important;
+  width: 50px !important;
+}
+
+.volume-radios > div {
+  margin-top: 10px;
+  box-shadow: 0 3px 6px 2px #d3d3d3;
+}
+
+.volume-radios > div > form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.volume-radios > div > form > input {
+  flex: 0 0 auto;
+  margin: 5px;
+  position: relative;
+  justify-content: space-around;
+}
+
+.volume-radios > div > form > label {
+  margin: 5px 10px 5px 0;
+}
+
+.radio-mutebox {
+  margin: 10px auto;
+  width: 100px;
+}
+
+.radio-mutebox > label {
+  margin: 0 10px;
+}
+
+.volume-radios > form > label:nth-child(-n+13) {
+  margin-right: 12px;
+}
