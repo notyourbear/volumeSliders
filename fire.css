@@ -1,0 +1,57 @@
+.volume-fire {
+  width: 200px;
+  border: 1px solid black;
+}
+
+.volume-fire h1 {
+  margin: 10px 0;
+}
+
+.fire-images {
+  position: relative;
+}
+
+.volume-fireplace {
+  margin: 0 auto;
+  position: relative;
+}
+
+img.log {
+  display: none;
+  position: absolute;
+  left: 15px;
+  bottom: 5px;
+}
+
+img.campfire {
+  margin: 0 auto;
+  width: 48px;
+  display: none;
+}
+
+.volume-up-fire {
+  margin: 10px auto;
+  display: block !important;
+  width: 20px;
+}
+
+.volume-campfire-counter {
+  position: relative;
+  display: block;
+  width: 10px;
+  margin: 10px auto;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.campfire-volume {
+  width: 10px;
+  background: red;
+  max-height: 80px;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
